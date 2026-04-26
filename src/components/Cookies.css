@@ -1,0 +1,91 @@
+.cookies-section {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #f9f9f7; /* Matching your main light theme */
+  overflow: hidden;
+}
+
+.cookies-container {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Mobile first */
+  gap: 50px;
+  align-items: center;
+}
+
+.cookies-badge {
+  background: #d97706; /* Cookie Gold/Brown */
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cookies-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 20px 0;
+  line-height: 1.1;
+}
+
+.cookies-title span { 
+  color: #d97706; 
+}
+
+.cookies-desc {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.cookies-features {
+  list-style: none;
+  padding: 0;
+}
+
+.cookies-features li {
+  font-weight: 700;
+  color: #2d5a27; /* Keeping the brand green for the checkmarks */
+  margin-bottom: 10px;
+}
+
+/* Visual Side */
+.cookies-visual {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cookies-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.664); /* Soft, elevated shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Tablet & Desktop Layout */
+@media (min-width: 1024px) {
+  .cookies-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .cookies-content { flex: 0 0 50%; }
+  .cookies-visual { flex: 0 0 45%; justify-content: flex-end; }
+}
+
+@media (max-width: 768px) {
+  .cookies-title { font-size: 2.2rem; }
+  .cookies-content { text-align: center; }
+  .cookies-features { display: inline-block; text-align: left; }
+}

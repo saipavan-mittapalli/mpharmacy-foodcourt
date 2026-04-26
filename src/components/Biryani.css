@@ -1,0 +1,126 @@
+.biryani-section {
+  width: 100%;
+  /* Adjusted padding: 120px top/bottom for breathing room without excess empty space */
+  padding: 120px 0; 
+  background-color: #f4f4f0; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.biryani-container {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+  gap: 60px;
+  align-items: center;
+}
+
+.biryani-content {
+  flex: 1;
+}
+
+.biryani-badge {
+  background: #2d5a27;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.biryani-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 20px 0;
+  line-height: 1.1;
+}
+
+.biryani-title span { 
+  color: #d97706; 
+}
+
+.biryani-desc {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.biryani-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.biryani-features li {
+  font-weight: 700;
+  color: #2d5a27;
+  margin-bottom: 12px;
+}
+
+.biryani-price .label { 
+  font-size: 0.9rem; 
+  color: #888; 
+  font-weight: 600; 
+}
+
+.biryani-price .amount { 
+  font-size: 2.5rem; 
+  font-weight: 900; 
+  color: #1a1a1a; 
+}
+
+/* Visual Side */
+.biryani-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.biryani-img {
+  width: 100%;
+  max-width: 550px; /* Slightly increased to fill space better on large screens */
+  border-radius: 40px;
+  box-shadow: 0 30px 60px rgba(217, 119, 6, 0.15);
+}
+
+/* TABLET & DESKTOP ADJUSTMENTS */
+@media (min-width: 1024px) {
+  .biryani-section {
+    /* Ensures the section doesn't feel like it has "infinite" height on ultra-wide monitors */
+    min-height: auto; 
+  }
+
+  .biryani-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 80px; /* More gap on desktop helps spread the content horizontally */
+  }
+  
+  .biryani-content { 
+    flex: 0 0 50%; 
+  }
+  
+  .biryani-visual { 
+    flex: 0 0 45%; 
+    justify-content: flex-end; 
+  }
+}
+
+@media (max-width: 768px) {
+  .biryani-section {
+    padding: 80px 0;
+  }
+  .biryani-title { font-size: 2.4rem; }
+  .biryani-content { text-align: center; }
+  .biryani-features { display: inline-block; text-align: left; }
+}

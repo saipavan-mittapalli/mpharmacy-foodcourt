@@ -1,0 +1,15 @@
+:root {
+  --dark: #0a0f0a;
+  --glass: rgba(255, 255, 255, 0.03);
+  --border: rgba(255, 255, 255, 0.1);
+  --primary: #4ade80; /* Neon Green for accent */
+  --gold: #facc15;
+}
+
+body {
+  background-color: var(--dark);
+  color: #e2e8f0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
