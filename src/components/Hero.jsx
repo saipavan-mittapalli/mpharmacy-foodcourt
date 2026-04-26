@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 
 // Image Imports - Ensure these paths match your src/assets folder exactly
-import mainHeroImg from '../assets/hero.png';
+import mainHeroImg from '../assets/Hero.png';
 import panipuriIcon from '../assets/panipuri.png';
 import biryaniIcon from '../assets/biryani.jpg';
 import drinksIcon from '../assets/badam-milk.png';
