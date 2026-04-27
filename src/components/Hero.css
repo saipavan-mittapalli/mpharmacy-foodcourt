@@ -30,13 +30,13 @@
 }
 
 .hero-brand-title span {
-  color: #2d5a27; /* Your signature brand green */
+  color: #2d5a27; 
   display: block;
-  font-size: 4.2rem; /* Slightly smaller for the second line to create hierarchy */
+  font-size: 4.2rem;
 }
 .hero-desc{
   width: 80%; 
-  max-width: 100%; /* Removes the 500px or fixed limit */
+  max-width: 100%; 
   
   font-size: 1.15rem;
   line-height: 1.7;
@@ -49,8 +49,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(225, 48, 108, 0.1); /* Subtle IG pink tint */
-  color: #e1306c; /* Instagram Brand Color */
+  background: rgba(225, 48, 108, 0.1); 
+  color: #e1306c; 
   padding: 8px 16px;
   border-radius: 50px;
   text-decoration: none;
@@ -71,7 +71,6 @@
   font-size: 1rem;
 }
 
-/* Ensure it centers on mobile along with the rest of the content */
 @media (max-width: 1024px) {
   .instagram-badge {
     margin-left: auto;
@@ -80,7 +79,6 @@
 }
 
 
-/* Responsive adjustment for Mobile */
 @media (max-width: 768px) {
   .hero-brand-title {
     font-size: 3rem;
@@ -92,7 +90,6 @@
   }
 }
 
-/* HERO SECTION LOGIC */
 .hero-section {
   width: 100%;
   min-height: 85vh;
@@ -102,7 +99,7 @@
 }
 
 .hero-wrapper {
-  width: 92%; /* 4% padding on each side */
+  width: 92%; 
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
@@ -148,7 +145,6 @@
   max-width: 500px;
 }
 
-/* PRODUCT RANGE BAR */
 .product-range {
   display: flex;
   align-items: center;
@@ -195,7 +191,6 @@
   margin: 0 15px;
 }
 
-/* BUTTONS */
 .hero-btns {
   display: flex;
   gap: 20px;
@@ -223,7 +218,6 @@
 
 .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(45, 90, 39, 0.2); }
 
-/* VISUAL SIDE */
 .hero-visual {
   flex: 1;
   display: flex;
@@ -238,7 +232,7 @@
   filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));
 }
 
-/* RESPONSIVE: MOBILE & TABLET */
+
 @media (max-width: 1024px) {
   .hero-wrapper {
     flex-direction: column;
@@ -254,34 +248,27 @@
   .top-banner { max-height: 120px; }
   .hero-title { font-size: 2.5rem; }
   .product-range {
-    /* Change flex to wrap so items can move to new lines */
     width: 100% !important; 
     box-sizing: border-box;
     margin: 25px 0;
     flex-wrap: wrap; 
     justify-content: center;
-    
-    /* Change the pill shape to a soft rectangle for better alignment */
     border-radius: 20px; 
     padding: 20px;
-    width: 100%; /* Take full width on mobile */
-    
-    /* This adds the vertical and horizontal gap you're looking for */
+    width: 100%; 
     gap: 15px; 
     margin: 25px auto;
   }
 
-  /* Hide the vertical lines on mobile as they look messy when wrapped */
   .range-divider {
     display: none;
   }
 
   .range-item {
-    /* Optional: Add a subtle background to each item to make them look like individual chips */
     background: #f9f9f7;
     padding: 8px 15px;
     border-radius: 50px;
-    flex: 1 1 40%; /* Encourages a 2-column layout on smaller screens */
+    flex: 1 1 40%; 
     justify-content: center;
   }
 

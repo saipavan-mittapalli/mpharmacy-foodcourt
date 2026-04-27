@@ -1,6 +1,5 @@
 .biryani-section {
   width: 100%;
-  /* Adjusted padding: 120px top/bottom for breathing room without excess empty space */
   padding: 120px 0; 
   background-color: #f4f4f0; 
   overflow: hidden;
@@ -77,7 +76,6 @@
   color: #1a1a1a; 
 }
 
-/* Visual Side */
 .biryani-visual {
   flex: 1;
   display: flex;
@@ -87,15 +85,13 @@
 
 .biryani-img {
   width: 100%;
-  max-width: 550px; /* Slightly increased to fill space better on large screens */
+  max-width: 550px;
   border-radius: 40px;
   box-shadow: 0 30px 60px rgba(217, 119, 6, 0.15);
 }
 
-/* TABLET & DESKTOP ADJUSTMENTS */
 @media (min-width: 1024px) {
   .biryani-section {
-    /* Ensures the section doesn't feel like it has "infinite" height on ultra-wide monitors */
     min-height: auto; 
   }
 
@@ -103,7 +99,7 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    gap: 80px; /* More gap on desktop helps spread the content horizontally */
+    gap: 80px; 
   }
   
   .biryani-content { 

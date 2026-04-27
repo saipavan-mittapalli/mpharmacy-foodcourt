@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.css';
 
-// Image Imports - Ensure these paths match your src/assets folder exactly
 import mainHeroImg from '../assets/hero.png';
 import panipuriIcon from '../assets/panipuri.png';
 import biryaniIcon from '../assets/biryani.jpg';
@@ -40,7 +39,7 @@ const Hero = () => {
 
         <div className="hero-wrapper">
           
-          {/* 2. LEFT CONTENT SIDE */}
+
           <div className="hero-content">
             <div className="status-badge">✨ 100% Hygienic & Natural</div>
             
@@ -53,7 +52,6 @@ const Hero = () => {
               cleanliness to Karimnagar's favorite street treats using Kangen water.
             </p>
 
-            {/* 3. PRODUCT RANGE BAR (With Images) */}
             <div className="product-range">
               <div className="range-item">
                 <div className="range-img-wrapper">
@@ -90,14 +88,12 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* 4. CALL TO ACTION BUTTONS */}
             <div className="hero-btns">
               <a href="#menu" className="btn-primary">Explore Menu</a>
               <a href="#contact" className="btn-secondary">Visit Us</a>
             </div>
           </div>
 
-          {/* 5. RIGHT VISUAL SIDE */}
           <div className="hero-visual">
             <img src={mainHeroImg} alt="M Pharmacy Specials" className="main-img" />
             <div className="blob-shape"></div>

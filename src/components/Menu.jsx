@@ -40,8 +40,7 @@ const Menu = () => {
   return (
     <section className="menu-section" id="menu">
       <div className="menu-container">
-        
-        {/* SECTION 1: SIGNATURE FLAVORS */}
+      
         <div className="menu-header">
           <span className="subtitle">Medical Grade Purity</span>
           <h2 className="title">Signature <span>Flavors</span></h2>
@@ -60,7 +59,6 @@ const Menu = () => {
           ))}
         </div>
 
-        {/* SECTION 2: CHAT SPECIALTIES */}
         <div className="menu-header chat-header">
           <span className="subtitle">Street Classics</span>
           <h2 className="title">Chat <span>Specialties</span></h2>

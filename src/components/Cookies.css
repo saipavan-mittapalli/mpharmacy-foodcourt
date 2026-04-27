@@ -1,7 +1,7 @@
 .cookies-section {
   width: 100%;
   padding: 100px 0;
-  background-color: #f9f9f7; /* Matching your main light theme */
+  background-color: #f9f9f7;
   overflow: hidden;
 }
 
@@ -10,13 +10,13 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column; /* Mobile first */
+  flex-direction: column;
   gap: 50px;
   align-items: center;
 }
 
 .cookies-badge {
-  background: #d97706; /* Cookie Gold/Brown */
+  background: #d97706;
   color: white;
   padding: 6px 14px;
   border-radius: 4px;
@@ -52,11 +52,11 @@
 
 .cookies-features li {
   font-weight: 700;
-  color: #2d5a27; /* Keeping the brand green for the checkmarks */
+  color: #2d5a27; 
   margin-bottom: 10px;
 }
 
-/* Visual Side */
+
 .cookies-visual {
   position: relative;
   width: 100%;
@@ -68,11 +68,11 @@
   width: 100%;
   max-width: 500px;
   border-radius: 40px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.664); /* Soft, elevated shadow */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.664); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Tablet & Desktop Layout */
+
 @media (min-width: 1024px) {
   .cookies-container {
     flex-direction: row;
