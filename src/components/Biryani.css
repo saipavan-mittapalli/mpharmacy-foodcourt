@@ -64,18 +64,6 @@
   margin-bottom: 12px;
 }
 
-.biryani-price .label { 
-  font-size: 0.9rem; 
-  color: #888; 
-  font-weight: 600; 
-}
-
-.biryani-price .amount { 
-  font-size: 2.5rem; 
-  font-weight: 900; 
-  color: #1a1a1a; 
-}
-
 .biryani-visual {
   flex: 1;
   display: flex;
@@ -87,7 +75,7 @@
   width: 100%;
   max-width: 550px;
   border-radius: 40px;
-  box-shadow: 0 30px 60px rgba(217, 119, 6, 0.15);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.402);
 }
 
 @media (min-width: 1024px) {

@@ -19,8 +19,8 @@ const App = () => {
       <Hero />
       <Story />
       <Features />
-      <Menu />
       <Biryani />
+      <Menu />
       <Cookies />
       <Drinks />
       <Media />

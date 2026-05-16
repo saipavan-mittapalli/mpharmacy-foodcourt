@@ -1,11 +1,12 @@
 import React from 'react';
 import './Hero.css';
 
-import mainHeroImg from '../assets/Hero.png';
-import panipuriIcon from '../assets/panipuri.png';
-import biryaniIcon from '../assets/biryani.jpg';
-import drinksIcon from '../assets/badam-milk.png';
-import cookiesIcon from '../assets/cookies.png';
+import mainHeroImg from '../assets/hero.png';
+import panipuriIcon from '../assets/panipuri-small.png';
+import biryaniIcon from '../assets/biryani-small.jpg';
+import drinksIcon from '../assets/badam-milk-small.png';
+import cookiesIcon from '../assets/cookies-small.png';
+import instagramIcon from '../assets/instagram.jpg';
 
 const Hero = () => {
   return (
@@ -32,14 +33,13 @@ const Hero = () => {
               rel="noreferrer" 
               className="instagram-badge"
             >
-              <span className="ig-icon">📸</span>
+              <img src={instagramIcon} className='ig-logo' alt="Instagram" />
               <span>@m_pharmacy_panipuri_wali_pro</span>
           </a>
         </div>
 
         <div className="hero-wrapper">
           
-
           <div className="hero-content">
             <div className="status-badge">✨ 100% Hygienic & Natural</div>
             
@@ -89,7 +89,7 @@ const Hero = () => {
             </div>
 
             <div className="hero-btns">
-              <a href="#menu" className="btn-primary">Explore Menu</a>
+              <a href="#biryani" className="btn-primary">Explore Menu</a>
               <a href="#contact" className="btn-secondary">Visit Us</a>
             </div>
           </div>

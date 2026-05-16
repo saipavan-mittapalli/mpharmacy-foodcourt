@@ -70,6 +70,12 @@
 .ig-icon {
   font-size: 1rem;
 }
+.ig-logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  object-fit: cover;
+}
 
 @media (max-width: 1024px) {
   .instagram-badge {
@@ -187,7 +193,7 @@
 .range-divider {
   width: 1px;
   height: 20px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.589);
   margin: 0 15px;
 }
 
@@ -229,7 +235,8 @@
   width: 100%;
   max-width: 550px;
   z-index: 2;
-  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.448));
+  border-radius: 25px;
 }
 
 
