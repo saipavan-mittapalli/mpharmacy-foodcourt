@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-import mainHeroImg from '../assets/hero.png';
+import mainHeroImg from '../assets/main-hero.png';
 import panipuriIcon from '../assets/panipuri-small.png';
 import biryaniIcon from '../assets/biryani-small.jpg';
 import drinksIcon from '../assets/badam-milk-small.png';
